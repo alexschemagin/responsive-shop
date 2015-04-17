@@ -1,5 +1,4 @@
 # responsive-shop
-page template displays a responsive header, navigation, and general style for a minimal, clean, pseudo shop
 
 This page template displays a responsive header, navigation, and general style for a minimal, clean, pseudo shop. If the viewport is narrower than 992px the menu will be placed the off canvas and will be shown with a smooth, slide-in effect.
 
