@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+	<meta name="author" content="Alex Schemagin"/>
+	<link rel="author" content="countereverything"/>
+	<meta name="description" content="counter responsive nav with bootstrap and jasny-bootstrap"/>
+	<meta name="keywords" content="alex schemagin, countereverything design, ced, counter, bootstrap, responsive, navigation, menu, slidein, slide, animate"/>
+	<meta name="twitter:site" content="@versionchaos"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+	<title>CED Bootstrap Responsive Framework</title>
+	<link href="css/ced-bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/ced-style.css" rel="stylesheet"/>
+</head>
+<body>
+	<header class="navmenu navmenu-default navmenu-fixed-right offcanvas-sm">
+		<div class="container">
+			<div class="col-xs-9 col-md-10 pull-right">
+				<div class="navbar pull-left visible-md topnav">
+					<ul class="navbar-wrapper">
+						<li class="navbar-item"><a>Coverage Map</a></li>
+						<li class="navbar-item"><a>Espanol</a></li>
+					</ul>
+				</div>
+				<div class="navbar pull-right visible-md topnav">
+					<ul class="navbar-wrapper">
+						<li class="navbar-item "><a>Join</a></li>
+						<li class="navbar-item"><a>Refill</a></li>
+						<li class="navbar-item"><a>Support</a></li>
+						<li class="navbar-item"><a>Find a Store</a></li>
+					</ul>
+				</div>
+				<div class="visible-sm visible-xs greeting">
+					<p class="greeting-name"><span>Good morning, </span>Alex</p>
+					<p class="greeting-number">My Number: <span>123-456-7890</span></p>
+				</div>
+				<ul class="nav navmenu-nav nav-pills">
+					<li class="dropdown active">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">My Account <b class="caret"></b></a>
+						<ul class="dropdown-menu sub-menu">
+							<li><a>Payments</a></li>
+							<li><a>Usage</a></li>
+							<li><a>Settings</a></li>
+							<li><a>Device &amp; Support</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">Shop <b class="caret"></b></a>
+						<ul class="dropdown-menu sub-menu">
+							<li><a>All Phones</a></li>
+							<li><a>Android Phones</a></li>
+							<li><a>iPhones</a></li>
+							<li><a>Accessories</a></li>
+						</ul>
+					</li>
+					<li><a>Plans</a></li>
+					<li><a>Support</a></li>
+					<li><a><i class="glyphicon glyphicon-shopping-cart"></i><span>Cart</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+    <div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+		<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<ul class="mobilelinks">
+			<li><a><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+			<li><a><i class="glyphicon glyphicon-map-marker"></i></a></li>
+			<li><a><i class="glyphicon glyphicon-log-in"></i></a></li>
+		</ul>
+    </div>	
+	<div class="container main">
+		<section>
+			<div class="page-header">
+				<h1>CED Responsive Template</h1>
+				<p class="lead">This page template displays a responsive header, navigation, and general style for a minimal, clean, pseudo shop. If the viewport is <b>narrower than 992px</b> the menu will be placed the off canvas and will be shown with a smooth, slide-in effect.</p>
+				<p>Many considerations are made at all of the normal <a href="http://getbootstrap.com/css" target="_blank">Bootstrap checkpoints</a> in addition to the slide-in navigation. <b>The header changes dramatically</b>. Its height, the size of the logo, the display of the additional, secondary navigation, and the display of the fixed, mobile icons all lend to an engaging scaling effect.</p>
+				<p>The navigation is based off of the <a href="http://jasny.github.io/bootstrap/examples/navmenu" target="_blank">Jasny navmenu effect</a>. The right-aligned slide-out navigation fits well in mobile viewports in the event of rapid opening and closing of the navigation panel. <b>While the user can click anywhere outside of the visible panel to dismiss the navigation</b>, the navigation can only be revealed by tapping the mobile nav menu icon. Since tapping is required to initiate the navigation panel, it makes sense that a double-tap or second tap in the same area would prove to be the easiest action for the user when dismissing the navigation. This reduces the learning curve for first-time users of the page. The translucent effect and shadow add some nice depth to the mobile menu.</p>
+				<p>Some of the content visibility is handled with the classes<pre>visible- and hidden-</pre>while other elements utilize media queries in the .css code. Future additions will include support for more animations, more content area types, and added focus on tabbed areas.</p>
+				<p>The header content is pulled to the right and its width changes based on the screen resolution. The logo is placed as the background image and positioned to the left allowing for easy updates in the future.</p>
+				<p>I will continue to update this and support more of the Bootstrap components for this theme.</p>
+			</div>
+		</section>
+		<section class="legal">
+			<p>This is some legal, corporate small print text. Efficiently unleash cross-media information without cross-media value. Find more great filler from <a href="http://www.cipsum.com" target="_blank">Corporate Ipsum</a>.</p>
+			<p>Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Efficiently unleash cross-media information without cross-media value. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+		</section>
+	</div>	
+	<footer>
+		<div class="container">
+			<div class="col-xs-12">
+				<p>&copy; 2015 CED. <span class="hidden-xs">All rights reserved.</span></p>
+				<ul class="footer-links">
+					<li><a>Legal</a></li>
+					<li><a>Privacy</a></li>
+					<li><a>CTIA/Regulatory</a></li>
+					<li><a>AdChoices</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/ced-bootstrap.min.js "></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+</body>
+</html>
