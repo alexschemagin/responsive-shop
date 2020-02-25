@@ -1,7 +1,5 @@
 # Responsive, Clean Shop
 
-[Live demo](http://countereverything.com/github/responsive-shop)
-
 This page template displays a responsive header, navigation, and general style for a minimal, clean, pseudo shop. If the viewport is narrower than 992px the menu will be placed the off canvas and will be shown with a smooth, slide-in effect.
 
 Many considerations are made at all of the normal Bootstrap checkpoints in addition to the slide-in navigation. The header changes dramatically. Its height, the size of the logo, the display of the additional, secondary navigation, and the display of the fixed, mobile icons all lend to an engaging scaling effect.
